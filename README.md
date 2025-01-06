@@ -3,4 +3,5 @@
 <br>
 <br>
 <h2>Esse foi um projeto que eu aprendi no <a href= "https://rodolfomori.com.br" >DevClub</a></h2>
+<a href= "https://jonathantome7.github.io/JT-Serralheria/">JT Serralheria</a>
 
