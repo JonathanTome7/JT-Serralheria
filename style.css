@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+.mascara {
+   height: 100%;
+    width: 100%;
+   background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+
+}
+
+.logo-mario {
+    height: 400px;
+
+}
+
+.MarioLuigi {
+    height: 600px;
+}
+
+.botaocontato {
+    color: white;
+    background-color: rgb(252, 4, 4);
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    height: 55px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 50px;
+
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa-principal {
+    width: 100%;
+    line-height: 200%;
+    font-size: 150%;
+
+
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+
+
+
+}
+
+.caixa-mãe {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+
+}
+
+
+
+p {
+    color: rgb(252, 252, 252);
+}
+
+.link-wpp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.cabeça {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.cabeça img {
+    height: 60px;
+
+
+}
+
+.cabeça a {
+    color: aliceblue;
+    font-size: 24px;
+    cursor: pointer;
+
+
+}
+
+.cabeça a:hover {
+    color: brown;
+    font-size: 25px;
+
+
+}
+
+.fale-conosco {
+    background-color: aliceblue;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -400%;
+    padding: 20px;
+    border-radius: 10px;
+    transition: left 1s ease-in-out;
+
+
+}
+
+.Botao-orçamento {
+    color: white;
+    background-color: rgb(252, 4, 4);
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    height: 55px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 50px;
+
+
+}
+
+input {
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: brown
+}
+
+textarea {
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: brown
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+
+
+}
