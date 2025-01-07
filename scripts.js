@@ -5,8 +5,8 @@ const mascara = document.querySelector(".mascara-formulario")
 
 
 function cliqueinoBotao() {
-    form.style.left = "50%"
-    form.style.transform = "translateX (-50%)"
+    form.style.left = "35%"
+    form.style.transform = "translateX (-40%)"
     mascara.style.visibility = "visible"
 
 }

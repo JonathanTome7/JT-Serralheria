@@ -119,6 +119,10 @@ p {
 
 }
 
+.cabeça a:hover {
+    color: brown;
+    font-size: 25px;
+}
 .fale-conosco {
     background-color: aliceblue;
     display: flex;
@@ -130,10 +134,7 @@ p {
     padding: 20px;
     border-radius: 10px;
     transition: left 1s ease-in-out;
-
-
 }
-
 .Botao-orçamento {
     color: white;
     background-color: rgb(252, 4, 4);
@@ -145,10 +146,7 @@ p {
     text-transform: uppercase;
     font-weight: bold;
     margin: 50px;
-
-
 }
-
 input {
     height: 40px;
     border-radius: 10px;
@@ -156,7 +154,6 @@ input {
     padding-left: 5px;
     outline-color: brown
 }
-
 textarea {
     width: 350px;
     height: 100px;
@@ -222,5 +219,7 @@ textarea {
     .cabeça a {
         font-size: 20px;
     }
+
+    
 
 }
